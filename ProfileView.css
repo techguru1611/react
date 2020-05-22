@@ -1,0 +1,255 @@
+.profileView{
+	background: #ffffff;
+	/* margin-top: -2px; */
+}
+.profileTitle{
+	margin-top:20px;
+}
+.profileTitle h1{
+	font-size: 28px;
+	color: #FE6B61;
+	margin-bottom: 25px;
+}
+.profilePhoto{
+	width: 220px;
+	height: 220px;
+	border-radius: 100%;
+	margin:0 auto;
+	position: relative;
+}
+.profilePhoto img{
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+}
+.profileFormView .inputGroup{
+	width: 92%;
+	margin-bottom: 30px;
+}
+.profileFormView .inputGroup input{
+	margin-left:2px !important;
+	padding-left: 20px !important;
+}
+.profileLabel h4{
+	color: #FE6B61;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.connectStripeView{
+	text-align: center;
+	margin-bottom: 50px !important;
+}
+.connectStripe{
+	background: #FE6B61;
+	color: #ffffff;
+	padding:12px 20px;
+	font-size: 18px; 
+	border-radius: 5px;
+	display: inline-block;
+	cursor: pointer;
+	border: 2px solid #FE6B61;
+}
+.connectStripeView .connectStripe:first-child{margin-right: 15px;}
+.connectStripe:hover{
+	border: 2px solid #FE6B61;
+	background: transparent;
+	color: #FE6B61;
+}
+.connectStripeView.connetStripebtn a{
+	background: #FE6B61 !important; 
+	color: #ffffff !important;
+	font-size: 18px; 
+	border-radius: 0px;
+	display: inline-block;
+	cursor: pointer;
+	border: 2px solid #FE6B61 !important;
+	/* float: right; */
+}
+/* .connectStripeView.connetStripebtn a{border:none !important;} */
+.connectStripeView.connetStripebtn a:hover{background: transparent !important;color: #FE6B61 !important;border-color: #FE6B61 !important;}
+/* .connectStripeView.connetStripebtn:hover a{color: #FE6B61 !important;border: none !important} */
+.connectStripe:disabled, .connectStripe[disabled]{cursor: not-allowed !important;user-select: none !important;opacity: 0.8 !important;}
+.connectStripe:disabled:hover, .connectStripe[disabled]:hover{background: #FE6B61;border: 2px solid #FE6B61;color: #fff;}
+.connetStripebtn a{margin-right: 0 !important;color: #ffffff !important;}
+.showDataView{
+	background: #f8f8f8;
+	color: #2b2b2b;
+	font-family: 'proxima_nova_rgregular';
+	padding:20px 20px 16px 20px;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.16), 0 5px 5px rgba(0,0,0,0.16);
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+.msgError{
+	text-align: center;
+	padding:10px 0;
+	margin-top: 0 !important;
+}
+.msgSuccess{
+	color: #84cc36 !important;
+	text-align: center;
+	padding: 10px 0;
+	margin-top: 0 !important;
+}
+/*--autoselect css start--*/
+/* Example Styles for React Tags*/
+#app {
+	padding: 40px;
+  }
+  
+  div.ReactTags__tags {
+	  position: relative;
+  }
+  
+  /* Styles for the input */
+  div.ReactTags__tagInput {
+	  width: 200px;
+	  border-radius: 2px;
+	  display: inline-block;
+  }
+  div.ReactTags__tagInput input.ReactTags__tagInputField,
+  div.ReactTags__tagInput input.ReactTags__tagInputField:focus {
+	  height: 33px;
+	  margin: 0;
+	  font-size: 14px;
+	  width: 100%;
+	  border: 1px solid #eee;
+	  padding: 0 6px;
+  }
+  
+  /* Styles for selected tags */
+  div.ReactTags__selected span.ReactTags__tag {
+	border: 1px solid #FE6B61;
+    background: #FE6B61;
+    font-size: 17px;
+    display: inline-block;
+    padding: 5px;
+    color: #fff;
+    margin: 0 5px 8px;
+    cursor: move;
+    border-radius: 2px;
+  }
+  div.ReactTags__selected a.ReactTags__remove {
+	  color: #fff;
+	  margin-left: 6px;
+	  cursor: pointer;
+  }
+  
+  /* Styles for suggestions */
+  div.ReactTags__suggestions {
+	  position: absolute;
+	  width: 214px;
+	  display: block;
+	  max-height: 300px;
+	  overflow-y: auto;
+	  z-index: 99;
+	  overflow-x: hidden;
+  }
+  div.ReactTags__suggestions ul {
+	  list-style-type: none;
+	  box-shadow: .05em .01em .5em rgba(0,0,0,.2);
+	  background: white;
+	  width: 100%;
+	  display: block;
+	  margin-top: 5px;
+  }
+  div.ReactTags__suggestions li {
+	  border-bottom: 1px solid #ddd;
+	  padding: 5px 10px;
+	  margin: 0;
+	  display: block;
+	  /* width: 200px; */
+  }
+  div.ReactTags__suggestions li mark {
+	  text-decoration: underline;
+	  background: none;
+	  font-weight: 600;
+  }
+  div.ReactTags__suggestions ul li.ReactTags__activeSuggestion {
+	  background: #ccc;
+	  cursor: pointer;
+	  /* width: 200px; */
+	  display: block;
+  }
+  .showDataView{
+	  position: relative;
+  }
+  .showDataView .form-control{
+	  width: 100% !important;
+	  display: block !important;
+  }
+  .error{
+	margin: 0;
+    position: absolute !important;
+    font-size: 14px !important;
+    margin-top: -4px !important;
+  }
+  /*--autoselect css end--*/
+  .input-icon {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+	display: inline-block;
+	cursor: pointer;
+	bottom: 15px;
+    right: 7px;
+	/* box-shadow: 0 5px 10px rgba(0,0,0,0.16), 0 5px 5px rgba(0,0,0,0.16); */
+}
+.input-icon input{opacity: 0;width: 100%;height: 100%;position: absolute;cursor: pointer;z-index: 99;}
+.camera-icon {
+    width: 100%;
+    height: 100%;
+	position: absolute;
+	background: #6c6c6c;
+	line-height: 45px;
+	text-align: center;
+	border-radius: 50%;
+	font-size:18px;
+	color: #FE6B61;
+	cursor: pointer;
+}
+.showDataView input:disabled{
+	color: rgba(0, 0, 0, 0.67) !important;
+	cursor: text !important;
+}
+.showDataView.disabled hr{border-bottom: 1px solid rgb(224, 224, 224) !important;}
+.showDataView hr{display: none !important;}
+.connetStripebtn{text-align: right}
+
+@media(max-width: 767px){
+	.profileView{
+		padding:30px 15px 0 15px;
+	}	
+	.profilePhoto{
+		width: 190px;
+		height: 190px;
+		margin: 0 auto;
+	}	
+	.uploadPhoto{
+		bottom: 10px;
+	}
+	.profileTitle {
+		margin-top: 30px;
+	}
+	.showDataView {
+		font-size: 18px;
+	}
+	.showDataView{
+		margin-bottom:30px;
+	}
+	.connectStripe{font-size: 16px;margin-bottom: 8px;}
+	.connectStripeView.connetStripebtn{float: none;}
+	.connetStripebtn{text-align: center; margin: 30px  0 0 !important;}
+}
+.showDataView button{fill: rgb(0, 0, 0) !important;}
+.updateStgripe-btn{
+	position: absolute;
+    top: 0;
+    right: 0;
+}
+@media(max-width:767px){
+	.updateStgripe-btn{position: relative;}
+}
+@media(max-width:480px){
+	.connectStripeView{text-align: center;}
+}
